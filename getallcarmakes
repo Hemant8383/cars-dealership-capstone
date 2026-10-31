@@ -1,0 +1,26 @@
+Project Title: Question 14 – Get All Car Makes and Models
+
+Command:
+curl -X GET "http://localhost:8000/djangoapp/get_cars"
+
+Output:
+{
+  "CarModels": [
+    {
+      "CarMake": "Toyota",
+      "CarModels": ["Camry", "Corolla", "Prius", "RAV4"]
+    },
+    {
+      "CarMake": "Honda",
+      "CarModels": ["Accord", "Civic", "CR-V"]
+    },
+    {
+      "CarMake": "BMW",
+      "CarModels": ["X1", "X3", "X5"]
+    },
+    {
+      "CarMake": "Mercedes-Benz",
+      "CarModels": ["C-Class", "E-Class", "GLA"]
+    }
+  ]
+}
