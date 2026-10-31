@@ -1,0 +1,16 @@
+Command:
+curl.exe -X GET "http://localhost:8000/djangoapp/fetchReviews/dealer/1"
+
+Output:
+[
+  {
+    "name": "Hemant",
+    "dealership": 1,
+    "review": "The dealership provided good customer service and a smooth car-buying experience.",
+    "purchase": true,
+    "purchase_date": "2026-10-15",
+    "car_make": "Toyota",
+    "car_model": "Camry",
+    "car_year": 2024
+  }
+]
