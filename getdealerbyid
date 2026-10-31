@@ -1,0 +1,13 @@
+curl -X GET "http://localhost:8000/djangoapp/fetchDealer/1"
+
+{
+  "id": 1,
+  "city": "Chicago",
+  "state": "Illinois",
+  "address": "123 Main Street",
+  "zip": "60601",
+  "lat": 41.8781,
+  "long": -87.6298,
+  "short_name": "Example Motors",
+  "full_name": "Example Motors Dealership"
+}
