@@ -1,6 +1,6 @@
-curl -X GET "http://localhost:8000/djangoapp/fetchDealers/Kansas"
+curl.exe -X GET "http://localhost:8000/djangoapp/fetchDealers/Kansas"
 
-  [
+[
   {
     "id": 1,
     "city": "Wichita",
