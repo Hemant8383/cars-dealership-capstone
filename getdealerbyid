@@ -1,4 +1,4 @@
-curl -X GET "http://localhost:8000/djangoapp/fetchDealer/1"
+curl -X GET "http://localhost:8000/fetchDealer/1"
 
 {
   "id": 1,
