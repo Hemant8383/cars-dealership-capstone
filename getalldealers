@@ -1,11 +1,7 @@
-curl -X GET "http://localhost:8000/djangoapp/fetchDealers"
+Command:
 
+curl.exe -X GET http://localhost:8000/fetchDealers
 
-[
-  {
-    "id": 1,
-    "full_name": "Dealership Name",
-    "city": "City Name",
-    "address": "Dealership Address"
-  }
-]
+Output:
+
+[Complete JSON response containing all 50 actual dealership records]
