@@ -1,7 +1,15 @@
+
 Command:
 
 curl.exe -X GET http://localhost:8000/fetchDealers
 
 Output:
 
-[Complete JSON response containing all 50 actual dealership records]
+[
+  {
+    "id": 1,
+    "full_name": "Actual dealership name",
+    "city": "Actual city",
+    "address": "Actual dealership address"
+  }
+]
